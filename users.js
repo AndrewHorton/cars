@@ -1,16 +1,54 @@
-//Users
-user = {
-  guest:['guestreview'],
-  registered:['userID', 'permissions', 'details']
+//user
+registered = true
 
-}
+user =[]
+permissions=[]
+review=[]
+buy=[]
+list=[]
 
+user.push(permissions)
 
-permissions =['registeredreview', 'buy', 'List']
-guestreview =['description', 'details', 'photos']
-registeredreview =['description','details','photos', 'report', 'testdrive']
-buy =['loan', 'offer', 'creditCard', 'crypto', 'date']
-list =['description', 'details', 'photos', 'price', 'date', 'remove', 'update']
-details = ['profile', 'firstName', 'middleInitial', 'lastName', 'contactDetails']
-profile =['avatar']
-contactDetails=['phone', 'email', 'address']
+permissions.push(review)
+
+permissions.push(buy)
+
+permissions.push(list)
+
+permissions.push(details)
+
+permissions.push(profile)
+
+permissions.push(contactDetails)
+
+review.push(description)
+
+review.push(details)
+
+review.push(exteriorPhotos)
+
+review.push(interiorPhotos)
+
+review.push(report)
+
+review.push(testDrive)
+
+buy.push(loan)
+
+buy.push(offer)
+
+buy.push(creditCard)
+
+buy.push(crypto)
+
+buy.push(date)
+
+list.push(description)
+
+list.push(details)
+
+list.push(exteriorPhotos)
+
+list.push(interiorPhotos)
+
+list.push(price)
