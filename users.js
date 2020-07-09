@@ -1,4 +1,4 @@
-//user
+//User Data
 registered = true
 
 user =[]
@@ -6,6 +6,7 @@ permissions=[]
 review=[]
 buy=[]
 list=[]
+
 
 user.push(permissions)
 
@@ -52,3 +53,28 @@ list.push(exteriorPhotos)
 list.push(interiorPhotos)
 
 list.push(price)
+
+list.push(date)
+
+list.push(remove)
+
+list.push(update)
+
+details.push(profile)
+
+details.push(firstName)
+
+details.push(middleInitial)
+
+details.push(lastName)
+
+details.push(contactDetails)
+
+profile.push(avatar)
+
+contactDetails.push(phone)
+
+contactDetails.push(email)
+
+contactDetails.push(address)
+
